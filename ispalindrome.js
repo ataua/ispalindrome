@@ -6,7 +6,7 @@
 * Usage:
 * In another file .js, or running Node in a terminal, in the same folder 
 * of the current file, instantiate the function with:
-*     const ip = require('./desafio.js')
+*     const ip = require('./ispalindrome.js')
 * Now, use the created function:
 *     ip('Roma e amor!')
 *
