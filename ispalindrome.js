@@ -18,6 +18,7 @@
 */
 
 const isPalidrome = (w) => {
+    if (typeof w != 'string') {return false}
     let word = w.toLowerCase().replace(/\W+/g, '')
     for (let left = 0, right = word.length - 1; left < right; left++, right--) {
         if (word[ left ] != word[ right ]) {

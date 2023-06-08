@@ -11,5 +11,3 @@ capitalization are meaningless. In Portuguese, we have accented letters like 'ã
 and 'ç', which differ form the unaccented ones. For the scope of this project,
 it was not created a function which would convert accented to unaccented letters,
 so word like 'aço' and 'maçã' should be written 'aco' and 'maca' correspondly.
-
-isPalindrome()
